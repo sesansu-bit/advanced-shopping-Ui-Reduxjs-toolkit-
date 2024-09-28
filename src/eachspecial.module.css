@@ -1,0 +1,257 @@
+.eachcontainer {
+    width : 240px;
+    height : 470px;
+    background-color: #0a021a;
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden; 
+  }
+  
+  .eachcontainer img {
+    width : 100%;
+    height : 60%;
+    object-fit: fill;
+    border-top-left-radius : 6px;
+    border-top-right-radius : 6px;
+    transition: transform 0.3s ease; 
+  }
+  
+  .eachcontainer:hover img {
+    transform: scale(1.1); 
+  }
+    .wishlistcover{
+        width : 240px;
+        height : 50px;
+        background-color: #0a021a;
+        position: absolute;
+        margin-top : -1.2rem;
+    }
+    .hicon{
+        color:rgba(254,2,104,1);
+        font-size: 1.3rem;
+        padding-top : 2px;
+        transition: all 0.1s;
+    }
+    .hicon:hover{
+        font-size: 1.4rem;
+        color:rgba(254,2,104,1);
+    }
+    .h{
+        margin-left : 0.8rem;
+    }
+    .text{
+        margin-left : 3.5rem;
+        font-size: 1.2rem;
+        color:transparent;
+        cursor: pointer;
+        background-image: linear-gradient(90deg, rgba(254,2,104,1) 7%, rgb(164, 90, 255) 69%);
+      background-clip:text;
+      -webkit-background-clip:text;
+    }
+     .textremove{
+        margin-left : 3.5rem;
+        font-size: 1.2rem;
+        color:rgb(255, 255, 255);
+        cursor: pointer;
+        background-image: linear-gradient(90deg, rgba(254,2,104,1) 7%, rgb(164, 90, 255) 69%);
+      background-clip:text;
+      -webkit-background-clip:text;
+    }
+    
+    .wishlist{
+        width : 200px;
+        height : 37px;
+      border : 0.5px solid rgb(255, 243, 248);
+        border-radius: 8px;
+        margin-top : 0.3rem;
+        margin-left : 1.1rem;
+        display: flex;
+        padding-top : 0.4rem;
+      
+    }
+
+    .productname{
+        margin-top : 0.4rem;
+        font-weight: 200;
+        cursor: pointer;
+        color:rgb(236, 236, 236);
+    }
+    .companyname{
+        font-weight: 600;
+        cursor: pointer;
+        margin-top :0.6rem;
+        font-size: large;
+        color:transparent;
+        cursor: pointer;
+        background-image: linear-gradient(90deg, rgba(254,2,104,1) 7%, rgb(164, 90, 255) 29%);
+      background-clip:text;
+      -webkit-background-clip:text;
+   }
+    .productrating{
+        margin-left : 0.75rem;
+        margin-top :0.5rem;
+        font-weight: 550;
+        cursor: pointer;
+        color:white;
+    }
+    .discount{
+        font-weight: 300;
+        cursor: pointer;
+        margin-left : 0.6rem;
+        color: rgb(255, 11, 108)
+    }
+    .originalprice{
+        font-weight: 300;
+        cursor: pointer;
+        margin-left : 0.6rem;
+        text-decoration: line-through;
+
+        color:rgb(236, 236, 236);
+    }
+    .ongoingprice{
+        font-weight: 600;
+        cursor: pointer;
+        color: rgb(255, 11, 108);
+    }
+    .price{
+        margin-top : 4%;
+        font-weight: 600;
+        cursor: pointer;
+         color: rgb(255, 11, 108);
+    }
+    .addtocart{
+        height :37px;
+        width : 200px;
+        margin-top : 1rem;
+        border-radius:6px;
+        padding-left :60px;
+        margin-left : 2.5px;
+        border-right :1px solid rgb(164, 90, 255);
+        padding-top :8px; 
+        color:rgb(255, 46, 129);
+        cursor: pointer;
+        border-left :1px solid rgb(164, 90, 255);
+        background: linear-gradient(45deg,  rgba(208, 170, 255, 0.436) 51%, rgba(255,255,255,0) 51%);
+    }
+    .addtocart:hover{
+        background: linear-gradient(45deg,  rgba(255,255,255,0)51%, rgba(208, 170, 255, 0.436) 51%);
+      
+    } 
+    .detailed{
+        margin-top : 1%;
+        margin-left : 5%;
+        color:rgb(236, 236, 236);
+    }
+    .remove{
+        height :37px;
+        width : 200px;
+        margin-top : 1rem;
+        border-radius:6px;
+        padding-left :60px;
+        margin-left : 2.5px;
+        border-right :1px solid rgb(164, 90, 255);
+        padding-top :8px; 
+        color:rgb(244, 235, 255);  
+        cursor: pointer;
+        border-left :1px solid rgb(164, 90, 255);
+        background: linear-gradient(45deg,  rgba(208, 170, 255, 0.436) 51%, rgba(255,255,255,0) 51%);
+    }
+    .remove:hover{
+        background: linear-gradient(45deg,  rgba(255,255,255,0)51%, rgba(208, 170, 255, 0.436) 51%);
+    } 
+    
+
+
+
+
+    @media (max-width :480px ) {
+        .eachcontainer {
+            width : 190px;
+            height : 400px;
+          }
+          .wishlistcover{
+            width : 200px;
+            height : 50px;
+            background-color: #0a021a;
+            position: absolute;
+            margin-top : -1.2rem;
+        }
+        .wishlist{
+            width : 162px;
+            height : 31px;
+            margin-left : 0.8rem;
+            padding-top : 0.2rem;
+        }
+        .text{
+            margin-left : 2.7rem;
+            font-size: 1.2rem;
+            color:transparent;
+        }
+        .productname{
+            margin-top : 0.4rem;
+            font-size: small;
+        }
+        .companyname{
+            font-weight: 600;
+            cursor: pointer;
+            margin-top :0.4rem;
+            font-size: medium;
+            
+       }
+        .productrating{
+            margin-left : 0.75rem;
+            margin-top :0.5rem;
+            font-weight: 550;
+            cursor: pointer;
+            color:white;
+            font-size: small;
+        }
+        .discount{
+            font-weight: 300;
+            cursor: pointer;
+            margin-left : 0.6rem;
+            color: rgb(255, 11, 108)
+        }
+        .originalprice{
+            font-weight: 300;
+            cursor: pointer;
+            margin-left : 0.6rem;
+            text-decoration: line-through;
+            font-size: small;
+            color:rgb(236, 236, 236);
+        }
+        .ongoingprice{
+            font-weight: 600;
+            cursor: pointer;
+            color: rgb(255, 11, 108);
+            font-size: small;
+        }
+        .price{
+            margin-top : 4%;
+            font-weight: 600;
+            cursor: pointer;
+             color: rgb(255, 11, 108);
+             font-size: small;
+        }
+        .addtocart{
+            height :31px;
+            width : 159px;
+            margin-top : 1rem;
+            padding-left :47px;
+            margin-left : 3px;
+            padding-top :8px; 
+            font-size: small;
+
+        }
+        .remove{
+            height :31px;
+            width : 159px;
+            margin-top : 1rem;
+            padding-left :45px;
+            margin-left : 2px;
+            padding-top :8px; 
+            font-size: small;
+        }
+     }
+    
+    

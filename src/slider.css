@@ -1,0 +1,96 @@
+/* Slider.css */
+.slider-container {
+    width : 100%;
+    overflow: hidden; /* Ensures only the current slide is visible */
+    margin-top : 74px;
+  }
+  
+  .slider {
+    display: flex;
+    width : 100%;
+  }
+  
+  .slide {
+    min-width : 100%; 
+    height :400px;/* Each slide takes up the full width of the container */
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide-image {
+    width : 100%;
+    height : 100%;
+  }
+  
+  /* Indicator styles */
+  .indicators {
+    display: flex;
+    justify-content: center;
+    margin-top : 10px;
+  }
+  
+  .indicator {
+    height : 7px;
+    width : 7px;
+    background-color: #0e0421;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .active-indicator {
+    width : 14px;
+    background-color:#ff0066;
+    height : 7px;
+    border-radius:40%;
+  }
+  .brandcover{
+    display:flex;
+    height : 75px;
+    object-fit: cover;
+    width :98%;
+   
+    margin-top :2rem;
+    margin-left : 1%;
+    margin-right : 1%;
+    justify-content: space-between;
+    font-size: smaller;
+}
+.asus{
+
+  opacity: 0.3;
+}
+.asus:hover{
+  opacity: 1; 
+  color:rgb(255, 0, 43);
+}
+.dng{
+  opacity: 0.3;
+}
+.dng:hover{
+  opacity: 1; 
+}
+.hurley{
+  opacity: 0.3;
+}
+.hurley:hover{
+  opacity: 1; 
+}
+.oppo{
+  opacity: 0.3;
+}
+.oppo:hover{
+  opacity: 1; 
+}
+.samsung{
+  opacity: 0.3;
+}
+.samsung:hover{
+  opacity: 1; 
+}
+.zara{
+  opacity: 0.3;
+}
+.zara:hover{
+  opacity: 1; 
+}

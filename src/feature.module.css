@@ -1,0 +1,51 @@
+.featurebanner{
+    height :60px;
+    width :100%;
+    margin-top : 4rem;
+    font-size: 2rem;
+    font-family: "Protest Guerrilla", sans-serif;
+    background: linear-gradient(90deg, rgba(254,2,104,1) 7%, rgb(127, 23, 255) 39%);
+    max-width : 1303px;
+}
+.featureban{
+    height :100%;
+    width :100%;
+    padding-left : 40%;
+    padding-top : 0.5rem;
+    background-color: rgba(255, 255, 255, 0.094);
+    position:absolute;
+    backdrop-filter: blur(1.5px);
+}
+.featurecontainer {
+    width : 100%;
+    margin-top : 3.5rem;
+    display: grid;
+    gap: 4rem; 
+    box-sizing: border-box; 
+    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); 
+    padding: 11px;
+    padding-left : 3rem;
+    height : auto; 
+    overflow-y: auto; 
+    overflow-x: hidden; 
+    max-width : 1303px;
+}
+
+@media (max-width :480px ) {
+    .featurebanner{
+        height :40px;
+        font-size:1.2rem;
+ }
+.featurecontainer {
+    gap: 2rem; 
+    padding-left : 1.3rem;
+    margin-top : 2.5rem;
+}
+
+}
+@media (max-width :768px ) {
+    .featurecontainer {
+        gap: 2.5rem; 
+    padding-left : 0.5rem;
+}
+}
