@@ -1,0 +1,44 @@
+.wishlistcontainer {
+    width : 100%;
+    margin-top : 70px;
+    display: grid;
+    gap: 4rem; 
+    box-sizing: border-box; 
+    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); 
+    padding: 2rem;
+    padding-left : 2rem;
+    height : auto; 
+    overflow-y: auto; 
+    overflow-x: hidden; 
+    max-width : 1303px;
+}
+
+.add{
+    position: absolute;
+    background-color: #09001c;
+   width :1335px;
+   height :1400px;
+   position:fixed;
+   top : 0%;
+   
+}
+.add p{
+    margin-top : 22%;
+    color:rgb(255, 0, 102);
+    margin-left : 38%;
+    font-family: "Protest Guerrilla", sans-serif;
+     font-size: x-large; 
+}
+@media (max-width :480px ) {
+    .wishlistcontainer {
+    gap: 2rem; 
+    padding-left : 1.2rem;
+    margin-top : 2.5rem;
+}
+}
+@media (max-width :768px ) {
+    .wishlistcontainer {
+        gap: 2.5rem; 
+    padding-left : 0.5rem;
+}
+}
